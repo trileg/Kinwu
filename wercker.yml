@@ -51,3 +51,10 @@ build:
           echo "python version $(python --version) running"
           echo "pip version $(pip --version) running"
           pip freeze
+
+deploy:
+    steps:
+        - heroku-deploy:
+            key: $HEROKU_KEY
+            user: $HEROKU_USER
+            app-name: $HEROKU_APP_NAME
