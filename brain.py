@@ -22,8 +22,6 @@ def brain():
                 message = msg['direct_message']['text']
                 if 'ping' in message:
                     t.direct_messages.new(user=dm_to, text="pong")
-                elif 'hoge' in message:
-                    t.direct_messages.new(user=dm_to, text="fuga")
 
 
 if __name__ == '__main__':
