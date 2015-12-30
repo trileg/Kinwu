@@ -1,0 +1,11 @@
+{
+  "name": "Kinwu",
+  "repository": "https://github.com/trileg/Kinwu",
+  "env": {
+    "KINWU_API_KEY": "",
+    "KINWU_API_SECRET": "",
+    "KINWU_ACCESS_TOKEN": "",
+    "KINWU_ACCESS_TOKEN_SECRET": "",
+    "KINWU_DM_TO": ""
+  }
+}
