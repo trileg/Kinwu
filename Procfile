@@ -1,1 +1,1 @@
-web: python brain.py
+bot: python brain.py
